@@ -1,3 +1,5 @@
+# First, we compile the function
+
 VFI <-function(){
   
   ## 0. Housekeeping
