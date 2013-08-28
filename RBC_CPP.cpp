@@ -5,9 +5,9 @@
 //============================================================================
 
 #include <iostream>
-#include <math.h>       // power
-#include <cmath>        // abs
-#include <ctime>        // time
+#include <math.h>      // power
+#include <cmath>       // abs
+#include <ctime>       // time
 
 using namespace std;
 
