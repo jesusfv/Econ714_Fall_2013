@@ -4,7 +4,7 @@ AbsoluteTiming[
  
  (* Compiling the inner Loop *) 
  (* NOTE: Using the un-documented Compile`GetElement function instead \
-of Part *)
+ of Part *)
  
  innerLoop = 
   Compile[{{mOutput, _Real, 2}, {vGridCapital, _Real, 
