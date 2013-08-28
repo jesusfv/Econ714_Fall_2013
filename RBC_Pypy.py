@@ -1,7 +1,7 @@
 # Basic RBC model with full depreciation
 #
 # Jesus Fernandez-Villaverde
-# Haverford, July 3, 2013
+# Haverford, July 31, 2013
 
 # 0. Initialization
 import numpypy as np
