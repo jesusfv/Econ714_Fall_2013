@@ -1,7 +1,7 @@
 /*Basic RBC model with full depreciation
  * 
  * Jesus Fernandez-Villaverde
- *Haverford, July 3, 2013
+ * Haverford, July 3, 2013
  */
 
 //package rbc_java;
