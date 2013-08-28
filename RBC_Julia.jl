@@ -1,7 +1,7 @@
 ## Basic RBC model with full depreciation
 #
 # Jesus Fernandez-Villaverde
-# Haverford, July 6, 2013
+# Haverford, July 26, 2013
 
 function main()
 
