@@ -31,7 +31,7 @@ capitalSteadyState     = (aalpha*bbeta)**(1/(1-aalpha))
 outputSteadyState      = capitalSteadyState**aalpha
 consumptionSteadyState = outputSteadyState-capitalSteadyState
 
-print "Output = ", outputSteadyState, " Capital = ", capitalSteadyState, " Consumption = ", consumptionSteadyState 
+print ("Output = ", outputSteadyState, " Capital = ", capitalSteadyState, " Consumption = ", consumptionSteadyState)
 
 # We generate the grid of capital
 vGridCapital           = np.arange(0.5*capitalSteadyState,1.5*capitalSteadyState,0.00001)
@@ -97,14 +97,13 @@ while(maxDifference > tolerance):
 
     iteration += 1
     if(iteration%10 == 0 or iteration == 1):
-        print " Iteration = ", iteration, ", Sup Diff = ", maxDifference
+        print (" Iteration =", iteration, ", Sup Diff =", maxDifference)
 
-print " Iteration = ", iteration, ", Sup Duff = ", maxDifference
-print " "
-print " My Check = ", mPolicyFunction[1000-1,3-1]
-print " "
+print(" Iteration =", iteration, ", Sup Diff =", maxDifference)
+print()
+print(" My Check = ", mPolicyFunction[1000-1,3-1])
+print()
 
 t2=time.time()
 
-print "Elapse time = is ", t2-t1
-
+print ("Elapsed time is", round(t2-t1, 2), "seconds")
